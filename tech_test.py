@@ -11,7 +11,7 @@ def calcular_suministro_bitcoin():
     total_suministro = 0  
 
     print(f"{'Halving':<10}{'Block Reward (SATS)':<25}{'Total Supply (BTC)':<30}{'% of Max Supply':<25}")
-    print("="*85)
+    print("="*95)
 
     while halving_contador <= MAX_HALVINGS:
 
@@ -20,9 +20,9 @@ def calcular_suministro_bitcoin():
         suministro_halving = recompensa_bitcoin * BLOCKS_HALVING
         total_suministro += suministro_halving
 
-        percentage_mined = (total_suministro / BITCOIN) * 100
+        porcentage_suministro = (total_suministro / BITCOIN) * 100
 
-        print(f"{halving_contador:<10}{recompensa_sats:<25,.0f}{total_suministro:<25,.13f}{percentage_mined:<20.13f}%")
+        print(f"{halving_contador:<10}{recompensa_sats:<25,.0f}{total_suministro:<30,.13f}{porcentage_suministro:<25.13f}%")
 
         halving_contador += 1
 
