@@ -1,5 +1,5 @@
 ### CUBO+ Technical Test
 
-[video](https://drive.google.com/drive/folders/197b5aawdpUkrmPZEgM64sNWo28WYIgfO)
+[video](https://drive.google.com/file/d/1pYM8ZAcbw2wogmwlfSJBpVZsiyET8jpK/view?usp=sharing)
 
 [solution](https://github.com/isidrocolocho/cuboplus_tech_test/blob/main/tech_test.py)
